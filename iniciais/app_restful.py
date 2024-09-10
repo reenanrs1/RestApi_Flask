@@ -1,6 +1,6 @@
 from flask import Flask, request, json
 from flask_restful import Resource, Api
-from habilidades import Habilidades, ListaHabilidades
+from iniciais.habilidades import Habilidades, ListaHabilidades
 app = Flask(__name__)
 api = Api(app)
 
